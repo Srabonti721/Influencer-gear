@@ -1,76 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Influencer gear</title>
     <!-- poppins font -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <!-- font awesome -->
-     <script src="https://kit.fontawesome.com/7e564616ca.js" crossorigin="anonymous"></script>
-     <!-- daisy ui -->
-      <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-<style>
-    .font-poppins{
-          font-family: "Poppins", sans-serif;
-    }
-</style>
+    <script src="https://kit.fontawesome.com/7e564616ca.js" crossorigin="anonymous"></script>
+    <!-- daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        .font-poppins {
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
 </head>
+
 <body class="font-poppins">
     <header class="container mx-auto">
         <!-- navbar -->
-<div class="navbar bg-base-100 flex justify-between">
-  <div class=" ">
-    <div class="dropdown">
-      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
-      </div>
-      <ul
-        tabindex="-1"
-        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-         <li><a>Home</a></li>
-      <li><a>Products</a></li>
-      <li><a>Sign Up</a></li>
-      <li><a>Log In</a></li>
-      </ul>
-    </div>
-    <a class="text-xl font-bold">Influencer products</a>
-  </div>
-  <div class="flex items-center">
-  <div class="hidden lg:flex">
-    <ul class="menu menu-horizontal px-1 font-semibold">
-      <li><a>Home</a></li>
-      <li><a>Products</a></li>
-      <li><a>Sign Up</a></li>
-      <li><a>Log In</a></li>
-    </ul>
-  </div>
-   <div class="flex gap-2">
-    <a class="hidden lg:block"><i class="fa-solid fa-magnifying-glass"></i></a>
-    <a><i class="fa-solid fa-cart-shopping"></i></a>
-   </div>
-   </div>
-</div>
-<!-- hero -->
- <div class="hero px-2 lg:p-10 ">
-  <div class="hero-content flex-col lg:flex-row-reverse"  >
- <div class="bg-no-repeat flex-1 bg-contain"style="background-image: url('images/Circle\ design.svg');" >
-       <img
-      src="images/main-camera.png"/>
- </div>
-    <div class=" flex-1 text-center lg:text-start mt-10 mr-10">
-      <h1 class=" text-3xl lg:text-5xl font-bold">Start your Journey as Influencer</h1>
-      <p class="py-6">The term "junior influencer" generally refers to individuals in the early stages of their content creation career, often overlapping with the nano-influencer</p>
-      <button class="btn bg-[#E02C6D] rounded-3xl text-white text-sm">Preebook now<i class="fa-solid fa-arrow-right text-xl"></i></button>
-    </div>
-  </div>
-</div>
+        <div class="navbar bg-base-100 flex justify-between">
+            <div class=" ">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="-1"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        <li><a>Home</a></li>
+                        <li><a>Products</a></li>
+                        <li><a>Sign Up</a></li>
+                        <li><a>Log In</a></li>
+                    </ul>
+                </div>
+                <a class="text-xl font-bold">Influencer products</a>
+            </div>
+            <div class="flex items-center">
+                <div class="hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 font-semibold">
+                        <li><a>Home</a></li>
+                        <li><a>Products</a></li>
+                        <li><a>Sign Up</a></li>
+                        <li><a>Log In</a></li>
+                    </ul>
+                </div>
+                <div class="flex gap-2">
+                    <a class="hidden lg:block"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- hero -->
+        <div class="hero px-2 lg:p-10 ">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+                <div class="bg-no-repeat flex-1 bg-contain" style="background-image: url('images/Circle\ design.svg');">
+                    <img src="images/main-camera.png" />
+                </div>
+                <div class=" flex-1 text-center lg:text-start mt-10 mr-10">
+                    <h1 class=" text-3xl lg:text-5xl font-bold">Start your Journey as Influencer</h1>
+                    <p class="py-6">The term "junior influencer" generally refers to individuals in the early stages of
+                        their content creation career, often overlapping with the nano-influencer</p>
+                    <button class="btn bg-[#E02C6D] rounded-3xl text-white text-sm">Preebook now<i
+                            class="fa-solid fa-arrow-right text-xl"></i></button>
+                </div>
+            </div>
+        </div>
     </header>
-    <main>
-
+    <main class="container mx-auto">
+        <section class="my-24 w-3/4 mx-auto">
+            <div class="flex justify-around flex-wrap bg-base-200 shadow-xl rounded-lg py-8 px-4 gap-4 ">
+                <img src="logos/Alibaba.svg" alt="Alibaba">
+                <img src="logos/Amazon.svg" alt="Amazon">
+                <img src="logos/Daraz.pk Logo.svg" alt="Daraz">
+                <img src="logos/Ebay.svg" alt="Ebay">
+                <img src="logos/Rakuten.svg" alt="Rakuten">
+                <img src="logos/Target.svg" alt="Target">
+                <img src="logos/Walmart.svg" alt="Walmart">
+            </div>
+        </section>
     </main>
 </body>
+
 </html>
